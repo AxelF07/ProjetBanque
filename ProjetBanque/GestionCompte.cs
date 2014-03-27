@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application
+namespace ProjetBanque
 {
 	public class GestionCompte
 	{
@@ -31,7 +31,7 @@ namespace Application
 
 		}
 
-		public int Virement ()
+		public int Virement (int montant)
 		{
 
 		}
