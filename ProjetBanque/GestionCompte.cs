@@ -28,7 +28,10 @@ namespace ProjetBanque
 
 		public int Afficher ()
 		{
-
+			foreach(int compte in ListeComptes)
+			{
+				Console.WriteLine (compte);
+			}
 		}
 
 		public int Virement (int montant)

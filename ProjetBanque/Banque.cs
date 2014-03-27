@@ -16,14 +16,24 @@ namespace ProjetBanque
 			do
 			{
 				Console.WriteLine("0 Ajouter un compte");
-				Console.WriteLine("0 Supprimer un compte");
-				Console.WriteLine("0 Obtenir un compte");
-				Console.WriteLine("0 Afficher un compte");
-				Console.WriteLine("0 Effectuer un virement");
+				Console.WriteLine("1 Supprimer un compte");
+				Console.WriteLine("2 Obtenir un compte");
+				Console.WriteLine("3 Afficher un compte");
+				Console.WriteLine("4 Effectuer un virement");
 				do
 				{
 					choixUtilisateur = read.readInt();
 				}while(0 < choixUtilisateur || choixUtilisateur > 0 );
+
+				switch(choixUtilisateur)
+				{
+				case 0:
+					GestionCompte.Afficher;
+					Console.WriteLine("Indiquez le compte à ajouter: ");
+
+					GestionCompte.Ajouter();
+				break;
+				}
 			}while(choixUtilisateur != 0);
 				
 		}
