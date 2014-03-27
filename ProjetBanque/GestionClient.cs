@@ -17,7 +17,7 @@ namespace Application
 
 		public int Supprimer ()
 		{
-			ListeClients.Remove (new Client ());
+			ListeClients.Remove (new Client ());;
 		}
 
 		public int Obtenir ()
