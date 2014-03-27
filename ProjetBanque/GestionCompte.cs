@@ -8,12 +8,17 @@ namespace Application
 {
 	public class GestionCompte
 	{
+
+		List<Compte> ListeComptes = new List<Compte>();
+
 		public int Ajouter()
 		{
+			ListeComptes.Add (new Compte ());
 		}
 
 		public int Supprimer ()
 		{
+			ListeComptes.Remove (Compte ());
 		}
 
 		public int Obtenir ()

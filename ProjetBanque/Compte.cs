@@ -32,8 +32,8 @@ namespace Application
 
 		public string Libelle
 		{
-			get { return nom; }
-			set { nom = value; }
+			get { return this.libelle; }
+			set { this.libelle = value; }
 		}
 
 		public DateTime DateOuverture
