@@ -11,9 +11,9 @@ namespace ProjetBanque
 
 		private List<Compte> ListeComptes = new List<Compte>();
 
-		public void Ajouter(Compte compte)
+		public void Ajouter(int Id, string libelle, DateTime dateOuverture, double solde, int typeCompte)
 		{
-			ListeComptes.Add (compte);
+			ListeComptes.Add (Id, libelle, dateOuverture, solde, typeCompte);
 		}
 
 		public void Supprimer (Compte compte)
