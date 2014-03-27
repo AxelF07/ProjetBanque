@@ -30,8 +30,8 @@ namespace ProjetBanque
 				case 0:
 					GestionCompte.Afficher;
 					Console.WriteLine("Indiquez le compte à ajouter: ");
-
-					GestionCompte.Ajouter();
+					int libelle = read.readInt();
+					GestionCompte.Ajouter(libelle);
 				break;
 				}
 			}while(choixUtilisateur != 0);
