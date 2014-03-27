@@ -24,7 +24,7 @@ namespace ProjetBanque
 			}
 			catch (Exception)
 			{
-				Console.WriteLine("Veuillez saisir une valeur entiere");
+					Console.WriteLine("Veuillez saisir une valeur entière");
 				erreurSaisie = true;
 			}
 		} while (erreurSaisie);
