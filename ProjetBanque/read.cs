@@ -47,6 +47,10 @@ namespace ProjetBanque
 
 			return val;
 		}
+		private string readString()
+		{
+			return Console.ReadLine();
+		}
 	}
 }
 
