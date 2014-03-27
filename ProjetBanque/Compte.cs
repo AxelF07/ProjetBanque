@@ -15,14 +15,14 @@ namespace Application
 		private int typeCompte;
 
 
-		public int Crediter()
+		public int Crediter(int montant)
 		{
-
+			solde += montant;
 		}
 
-		public virtual int Debiter()
+		public virtual int Debiter(int montant)
 		{
-
+			solde -= montant;
 		}
 
 		public int Id
