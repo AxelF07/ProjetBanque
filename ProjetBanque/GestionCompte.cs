@@ -9,28 +9,31 @@ namespace Application
 	public class GestionCompte
 	{
 
-		List<Compte> ListeComptes = new List<Compte>();
+		private List<Compte> ListeComptes = new List<Compte>();
 
-		public int Ajouter()
+		public void Ajouter(Compte compte)
 		{
-			ListeComptes.Add (new Compte ());
+			ListeComptes.Add (compte);
 		}
 
-		public int Supprimer ()
+		public void Supprimer (Compte compte)
 		{
-			ListeComptes.Remove (Compte ());
+			ListeComptes.Remove (compte);
 		}
 
-		public int Obtenir ()
+		public Compte Obtenir (int numero)
 		{
+			return null;
 		}
 
 		public int Afficher ()
 		{
+
 		}
 
 		public int Virement ()
 		{
+
 		}
 	}
 }

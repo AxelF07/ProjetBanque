@@ -6,7 +6,7 @@ namespace ProjetBanque
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+
 		}
 
 		/*  Création de readInt et readDouble:  */
