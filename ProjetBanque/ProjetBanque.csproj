@@ -34,17 +34,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Banque.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="Compte.cs" />
-    <Compile Include="CompteNonRemunere.cs" />
-    <Compile Include="CompteRemunere.cs" />
-    <Compile Include="GestionClient.cs" />
-    <Compile Include="GestionCompte.cs" />
-    <Compile Include="LivretRestrictionDate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="read.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
